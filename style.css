@@ -12,7 +12,7 @@ ul {
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -26,15 +26,37 @@ a, .sub-text{
     width: 100px;
     background-color: transparent;
     border: 0px;
-    color: #f9faf8;;
+    color: #f9faf8;
+    font-weight: bold;
+
 }
 
 .first-section{
     background-color: #1F2937;
+    padding: 0px 25px;
+    padding-bottom: 100px;
+    margin: -8px;
 }
+
+.second-section{
+    padding: 80px;
+}
+
+.third-section{
+    background-color: #E5E7EB;
+    padding: 80px;
+    margin: -8px;
+}
+
+.fourth-section{
+    padding: 50px;
+}
+
+
 
 .title{
     color: #f9faf8;
+    margin-bottom: -25px;
 }
 
 button{
@@ -42,5 +64,123 @@ button{
     background-color: #3882F6;
     border-radius: 5px;
     border: 0px;
+    width: 70px;
+    height: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-info{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+
+.mid-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.info{
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-pics{
+    display: flex;
+}
+
+.button-text{
+    background-color: white;
+    border: 2px solid #3882F6;
+    width: 100px;
+    height: 100px;
+}
+
+.random{
+    text-align: center;
+    width: 200px;
+}
+
+.quote{
+    font-size: 26px;
+    color: #1F2937;
+    width: 600px;
+    margin: auto;
+    text-align: left;
+    font-style: italic;
+    font-weight: thin;
+}
+
+.quote-person{
+    margin-left: 800px;
+    font-weight: bold;
+    padding: 0px;
+    width: 200px;
+}
+
+.big-button{
+    display: flex;    
+    align-items: center;
+    width: 1000px ;
+    height: 50px;
+    padding: 50px;
+
+}
+
+.button-alert{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.button-logo{
+    font-weight: bold;
+}
+
+.button-sub-text{
+    color: #E5E7EB;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    margin-left: -200px;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer{
+    background-color: #1F2937;
+    height: 50px;
+    margin: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div{
+    color: #E5E7EB;
+    height: 25px;
+    width: 250px;
+
 }
 
